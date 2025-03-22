@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои ссылки</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #3498db, #9b59b6);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+
+        .link-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .link-list li {
+            margin: 15px 0;
+        }
+
+        .link-list a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: #fff;
+            padding: 15px 25px;
+            background-color: #3498db;
+            border-radius: 50px;
+            transition: transform 0.3s, background-color 0.3s;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+        .link-list a:hover {
+            background-color: #2980b9;
+            transform: scale(1.1);
+        }
+
+        .link-list a:active {
+            transform: scale(1);
+        }
+
+        .link-list a:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Мои ссылки</h1>
+        <ul class="link-list">
+            <li><a href="https://example1.com" target="_blank">Ссылка 1</a></li>
+            <li><a href="https://example2.com" target="_blank">Ссылка 2</a></li>
+            <li><a href="https://example3.com" target="_blank">Ссылка 3</a></li>
+            <li><a href="https://example4.com" target="_blank">Ссылка 4</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
